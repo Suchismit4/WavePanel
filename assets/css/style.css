@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
+  font-family: "GilRoy";
+  src: url("font.otf");
+}
+body, html{
+	outline: 0;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(-120deg, #051e48, #03193c);
+	height: 100vh;
+}
+
+.panel{
+	outline: 0;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, #002356, #00204f);
+	width: 300px;
+	height: 100vh;
+}
+
+.main-branding{
+	color: white;
+	font-size: 100px;
+	font-family: GilRoy;
+	margin-top: 30px;
+	margin-bottom: 90px;
+}
+
+.navItem{
+	color: white;
+	font-family: GilRoy;
+	background: #576574;
+	border-radius: 8px;
+	padding: 4px;
+	margin-bottom: 20px;
+	transition: .5s ease;
+}
+
+.navItem:hover{
+	background:  #2a78fc ;
+	cursor: pointer;
+}
+
+.onPage{
+	background:  #2a78fc ;
+}
+
+.navText h2{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-size: 25px;
+	margin-left: 25px;
+}
+
+.boost{
+	color: white;
+	font-family: GilRoy;
+	background:#2a78fc ;
+	border-radius: 8px;
+	padding: 4px;
+	margin-top: 75%;
+	margin-bottom: 20px;
+	transition: .5s ease;
+}
+
+.boost h2{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-size: 34px;
+	text-transform: uppercase;
+}
