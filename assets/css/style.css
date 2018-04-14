@@ -62,8 +62,7 @@ body, html{
 	background:#2a78fc ;
 	border-radius: 8px;
 	padding: 4px;
-	margin-top: 75%;
-	margin-bottom: 20px;
+	margin-top: 67%;
 	transition: .5s ease;
 }
 
@@ -74,4 +73,14 @@ body, html{
 	margin-bottom: 1px;
 	font-size: 34px;
 	text-transform: uppercase;
+}
+
+.item{
+	color: white;
+	font-family: GilRoy;
+	background:#0d226a ;
+	padding: 4px;
+	margin-top: 0px;
+	margin-left: 600px;
+	transition: .5s ease;	
 }
